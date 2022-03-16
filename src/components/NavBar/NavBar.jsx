@@ -2,7 +2,8 @@
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import CartWidget from '../CartWidget/CartWidget'
+//import NavDropdown from 'react-bootstrap/NavDropdown'
 
 function NavBar() {
   return (
@@ -17,7 +18,7 @@ function NavBar() {
             </Nav>
             <Nav>
             <Nav.Link eventKey={2} href="#memes">
-                <img src="https://cdn-icons-png.flaticon.com/512/6445/6445191.png" alt="Carrito de compras" width={30} />
+                <CartWidget/>
             </Nav.Link>
             </Nav>
         </Navbar.Collapse>
