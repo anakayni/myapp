@@ -7,9 +7,11 @@ function RoutesApp() {
   return (
     <>
       <NavBar/>
-      <Titulo/>
+      <Titulo 
+        tituloProps="Soy un titulo"
+      />
       {/*Esta es la Card*/}
-      <ItemListContainer/>
+      <ItemListContainer greeting="Hola soy ItemListContainer"/>
     </>
   )
 }
